@@ -1,0 +1,11 @@
+customer_id,age,plan,monthly_spend,support_tickets,churned
+c001,28,basic,19.99,1,no
+c002,41,pro,49.50,0,no
+c003,35,basic,21.00,2,no
+c004,52,enterprise,120.00,1,yes
+c005,23,basic,18.75,0,no
+c006,46,pro,55.10,1,no
+c007,31,basic,20.20,0,no
+c008,39,pro,51.00,2,yes
+c009,44,enterprise,118.40,1,no
+c010,27,basic,17.80,0,no
