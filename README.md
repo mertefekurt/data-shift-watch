@@ -1,19 +1,12 @@
 # Data Shift Watch
 
-<p align="center">
-  <img src="assets/readme-cover.svg" alt="Data Shift Watch cover" width="100%" />
-</p>
+A small CLI for detecting distribution shift between baseline and current CSV datasets. The idea is simple: give Data Shift Watch the local file or fixture, get a readable result, and decide what needs attention before the next handoff.
 
-A small CLI for detecting distribution shift between baseline and current CSV datasets.
+## A quick look
 
-## Working notes
+![Data Shift Watch cover](assets/readme-cover.svg)
 
-- quick local checks around data quality
-- small CI jobs where a readable report is enough
-- review workflows that need deterministic output
-- examples based on `examples/current.csv`
-
-## Install
+## Start here
 
 ```bash
 git clone https://github.com/mertefekurt/data-shift-watch.git
@@ -23,13 +16,13 @@ source .venv/bin/activate
 python -m pip install -e ".[dev]"
 ```
 
-## Use
+Run:
 
 ```bash
 data-shift-watch examples/current.csv
 ```
 
-## Files
+## Files with the most context
 
 ```text
 .github/        CI workflow
