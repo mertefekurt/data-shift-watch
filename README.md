@@ -1,28 +1,10 @@
 # Data Shift Watch
 
-A small CLI for detecting distribution shift between baseline and current CSV datasets. The idea is simple: give Data Shift Watch the local file or fixture, get a readable result, and decide what needs attention before the next handoff.
-
-## A quick look
+This project is a small, inspectable data quality tool. It prefers concrete examples and local files over hidden setup.
 
 ![Data Shift Watch cover](assets/readme-cover.svg)
 
-## Start here
-
-```bash
-git clone https://github.com/mertefekurt/data-shift-watch.git
-cd data-shift-watch
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install -e ".[dev]"
-```
-
-Run:
-
-```bash
-data-shift-watch examples/current.csv
-```
-
-## Files with the most context
+## Open these first
 
 ```text
 .github/        CI workflow
@@ -30,5 +12,17 @@ examples/       sample inputs
 src/            package source
 tests/          test coverage
 .gitignore      project file
-pyproject.toml  package metadata
 ```
+
+## Try the sample
+
+```bash
+git clone https://github.com/mertefekurt/data-shift-watch.git
+cd data-shift-watch
+python -m pip install -e ".[dev]"
+data-shift-watch examples/current.csv
+```
+
+## Project flow
+
+![Workflow diagram](assets/readme-diagram.svg)
